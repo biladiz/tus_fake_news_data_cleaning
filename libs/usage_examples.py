@@ -13,7 +13,7 @@ def get_acceptance_indexes(post_title, comments):
         TextBlobAcceptanceIndexer,
         NRCAcceptanceIndexer,
         VADERAcceptanceIndexer,
-        # CombinedAcceptanceIndexer,
+        CombinedAcceptanceIndexer
     ]:
         try:
             # print(f"\nVariation: {acceptance_indexer_cls.__name__}\n")
